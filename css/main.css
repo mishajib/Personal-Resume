@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Ubuntu;
+}
+.header {
+    width: 100%;
+}
+.navigation {
+    width: 100%;
+    background: #36e0e29c;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-right: 16px;
+    position: fixed;
+    top: 0;
+}
+.row {
+    overflow: hidden;
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    padding-left: 50px;
+}
+.column-one-nav {
+    width: 25%;
+    float: left;
+}
+.column-two-nav {
+    width: 75%;
+    float: left;
+}
+
+.column-two-nav .nav {
+    list-style: none;
+}
+.column-two-nav .nav .nav-item a{
+    text-decoration: none;
+}
+
+.column-two-nav .nav .nav-item {
+    float: left;
+    padding: 25px 25px 20px 20px;
+}
+.nav {
+    margin-left: 35%;
+    margin-top: 5px;
+}
+.navbar .nav-brand {
+    margin-top: -10px;
+}
+
+.nav .nav-item a {
+    color: #000;
+}
+
+.nav .nav-item a:hover {
+    color: #fff;
+    background: #36e0e2f0;
+    padding: 25px 25px 20px 20px;
+    transition: ease-in .5s;
+}
+
+.hero {
+    background: url("../img/bg.jpg") center center fixed;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 115px;
+    padding-left: 50px;
+    margin-left: -8px;
+    padding-right: 16px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+.column-one-hero {
+    width: 100%;
+}
+.hero .hero-img {
+    text-align: center;
+}
+.hero-img img {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    transition: 3s;
+}
+.hero-img img:hover {
+    transition: 1s;
+    transform: rotate(360deg);
+    box-shadow: 15px 15px 35px -4px #000;
+}
+.hero .hero-title {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Ubuntu;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px #000;
+}
+
+.hero .hero-subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -20px;
+}
+.hero-subtitle span {
+    background: aqua;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+.hero-icon {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: -15px;
+}
+.hero-icon a {
+    color: #ffffff;
+}
+.hero-icon a .fa-facebook-square{
+    transition: 2s;
+}
+.hero-icon a .fa-instagram{
+    transition: 2s;
+}
+.hero-icon a .fa-twitter-square{
+    transition: 2s;
+}
+.hero-icon a .fa-linkedin{
+    transition: 2s;
+}
+.hero-icon a:hover .fa-facebook-square {
+    color: #3b5998;
+    transition: 1s;
+    transform: scale(2);
+}
+.hero-icon a:hover .fa-twitter-square {
+    color: #00acee;
+    transition: 1s;
+    transform: scale(2);
+}
+.hero-icon a:hover .fa-linkedin {
+    color: #0e76a8;
+    transition: 1s;
+    transform: scale(2);
+}
+.hero-icon a:hover .fa-instagram {
+    color: #3f729b;
+    transition: 1s;
+    transform: scale(2);
+}
+.hero-btn {
+    text-align: center;
+    transition: 3s;
+}
+.hero-btn a {
+    text-decoration: none;
+    padding: 15px 60px 15px 60px;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
+    transition: 3s;
+}
+.hero-btn a:hover {
+    background: #46fffc;
+    transition: 1s;
+}
+.hero-btn:hover {
+    transition: 2s;
+    transform: rotate(360deg);
+}
+
+#about {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.title {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #75ee62;
+}
+.about .about-description {
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    color: #575757;
+}
+#skills {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: url("../img/skill.jpg") center center fixed;
+    background-size: cover;
+    margin-left: -8px;
+    padding-right: 16px;
+}
+.skills .skills-progress-section {
+    width: 50%;
+    margin-left: 25%;
+}
+.progress h4 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    letter-spacing: 0.9px;
+    font-weight: 600;
+    color: #00ff8b;
+}
+
+.progress-bar {
+    height: 15px;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+}
+
+.percent {
+    background-color: #10c9c3;
+    height: 15px;
+    width: 60%;
+}
+.percent-number {
+    margin-left: 40px;
+}
+.skills-progress {
+    margin-top: 20px;
+}
+.skills .title {
+    color: #fff;
+}
+
+#experience {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.work-experience {
+    width: 80%;
+    box-sizing: border-box;
+    background: #00acee;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    height: 200px;
+    transition: 1s;
+}
+.work-experience:hover {
+    transition: .8s;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    box-shadow: 6px 6px 60px #000;
+}
+
+.column-one-experience {
+    width: 25%;
+    float: left;
+    background-size: cover;
+    height: 200px;
+}
+.column-two-experience {
+    width: 75%;
+    float: left;
+}
+.column-two-experience h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+.column-two-experience p {
+    color: #ffffff;
+    font-size: 20px;
+}
+.column-two-experience .content {
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.column-one-experience img {
+    width: 100%;
+    height: 100%;
+}
+
+#contact {
+    width: 100%;
+    background: url("../img/contact.jpg") center center fixed;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: -8px;
+    padding-right: 16px;
+}
+.contact-info {
+    width: 50%;
+    background: rgba(14, 118, 168, 0.51);
+    color: white;
+    margin-left: 25%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.contact .title {
+    color: #ff4a8f;
+}
+.contact-info h3 {
+    font-size: 30px;
+}
+.contact-info span {
+    font-size: 20px;
+}
+.contact-info:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 60px #000;
+    transition: .8s;
+    transform: scale(1.10, 1.10);
+}
+.active {
+    color: #fff;
+    background: #36e0e2f0;
+    padding: 22px 20px 21px 20px;
+}
